@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(19, 19, 19);
+    color: white;
+}
+.box{
+    background-color: rgba(54, 54, 54, 0.74);
+    text-align: center;
+    padding: 15px ;
+    width: 80%;
+    margin: 70px auto;
+    border: 1px solid rgba(128, 128, 128, 0.144);
+    border-radius: 20px;
+    font-family:'Inter', Arial, sans-serif;
+}
+.card{
+    margin: 50px 0 30px;
+}
+.img1{
+    object-fit: cover;
+    width: 150px ;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(236, 240, 241, 0.6);
+    margin-bottom: 20px;
+}
+.city{
+    color: rgb(172, 172, 22);
+    margin: 5px 0;
+}
+.carer{
+    margin: 10px 0;
+    color: rgba(191, 191, 192, 0.945);
+}
+a{
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: rgba(97, 96, 96, 0.404);
+    margin:0 auto 8px;
+    padding-top: 15px;
+    width: 70%;
+    border-radius: 22px;
+    color: rgb(243, 244, 245);
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    color: rgb(85, 144, 255);
+    background-color: rgba(8, 8, 8, 0.575);
+}
+footer p{
+    text-align: center;
+    font-size: small;
+    color: rgb(187, 186, 186);
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
