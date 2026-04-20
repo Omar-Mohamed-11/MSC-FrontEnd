@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page</title>
+    <!-- internal CSS goes here -->
+     <style>
+        h2{
+            background-color: #12131233;
+            padding: 8px;
+            border-radius: 10px;
+            color: #051f20;
+        }
+        .intro{
+            background-color: #8eb69bc5;
+            padding: 20px;
+        }
+        #site-title{
+            /* 
+                Inline styles have higher specificity than internal and external CSS.
+                Piriority: inline > internal > external(id > class > element), and for all of them (The last declared style is applied).
+            */
+            font-size: 40px;
+
+        }
+     </style>
+    
+    <!-- external CSS link goes here -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <header style="background-color: #051f20; padding: 15px;">
+      <h1 id="site-title" style="font-size: 36px; color: #daf1de ;">My Website</h1>
+      
+      <nav>
+        <a class="a" id="a1" href="#" style="color: white; margin-right: 30px;">Home</a>
+        <a class="a" href="#" style="color: white; margin-right: 30px;">About</a>
+        <a class="a" href="#" style="color: white;">Contact</a>
+      </nav>
+    </header>
+    
+    <main>
+      <section class="intro">
+        <h2>Welcome</h2>
+        <p>This is the intro section.</p>
+        <p>It has two paragraphs.</p>
+      </section>
+      <section class="topics">
+        <h2>Topics</h2>
+        <p>First topic paragraph.</p>
+        <p>Second topic paragraph.</p>
+      </section>
+    </main>
+    
+    <footer>
+      <h2>Footer Logo</h2>
+      <p>&copy; 2026 My Website</p>
+    </footer>
+  
+    </body>
+</html>

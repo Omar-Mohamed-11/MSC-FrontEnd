@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    background-color: #c8e4cd;
+}
+main p{
+    color: rgb(70, 67, 67);
+}
+.a{
+    display: inline-block;
+}
+nav{
+    text-align: center;
+}
+.topics{
+    height: 180px;
+    background-color: #8eb69bc5;
+    padding: 20px;
+}
+.topics > h2{
+    background-color: #383a388c;
+    padding: 8px;
+    border-radius: 10px;
+}
+.intro h2 + p{
+    font-size: 18px;
+}
+footer{
+    background-color: #051f20; 
+    padding: 8px;
+}
+footer h2 ~ p {
+  color: lightgrey;
+  text-align: center;
+  font-size: small;
+}
