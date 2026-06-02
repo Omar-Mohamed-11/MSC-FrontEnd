@@ -3,10 +3,268 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Zaker</title>
     </head>
     
     <body>
-        
+        <header>
+            <h1>ZAKER</h1>
+            <nav>
+                <a href="#instructors">Our Instructors</a> | 
+                <a href="#schedule-table">Schedule Table</a> |
+                <a href="#register">Register</a>
+            </nav>
+            <hr noshade>
+        </header>
+
+        <section id="teaser">
+            <br>
+            <video src="media/teaser-video.mp4" muted controls autoplay width="100%"></video>
+            <hr noshade> <br>
+        </section>
+
+        <section id="instructors">
+            <h2>Our Instructors</h2>
+            <p><i>"Behind every great learner is a great instructor."</i></p>
+            <div id="instructor1" class="instructor">
+                <h3 class="name">Mohammed Ahmed Mohammed</h3>
+                <img src="media/mohammed-ahmed.png" alt="mohamed`s photo" width="300">
+                <p class="info">
+                    Mohammed Ahmed Mohammed is a
+                    seasoned <strong>web development expert</strong>
+                    with over <strong>10 years of experience</strong> in
+                    building dynamic and interactive
+                    websites. He has worked with <strong>various
+                    startups and enterprises</strong>, helping
+                    them develop modern, scalable web
+                    applications. As a passionate
+                    educator, he has trained hundreds of
+                    students in front-end and back-end
+                    technologies, making complex
+                    concepts easy to understand.
+                </p>
+                <h4 class="skills-tittle">Skillset:</h4>
+                <ul class="skills">
+                    <li class="skill">HTML, CSS, JavaScript</li>
+                    <li class="skill">Front-end frameworks (React,Vue.js)</li>
+                    <li class="skill">Back-end development (Node.js,PHP, Python)</li>
+                    <li class="skill">Database management (MySQL,MongoDB)</li>
+                </ul>
+            </div>
+            <hr width="90%">
+
+            <div id="instructor2" class="instructor">
+                <h3 class="name">Noor Mohammed Ahmed</h3>
+                <img src="media/noor-mohamed.png" alt="noor`s photo" width="300">
+                <p class="info">
+                    Noor Mohamed Ahmed is a 
+                    <strong>talented UX/UI designer and front-end developer</strong>
+                    with over <strong>8 years of experience</strong> in creating visually
+                    stunning and user-friendly web
+                    applications. She has worked with
+                    major tech firms and startups,
+                    focusing on enhancing user
+                    experiences through modern design
+                    principles. Noor is also a passionate
+                    advocate for <strong> inclusive and accessible web design</strong>, 
+                    ensuring that digital experiences are available to everyone.
+                </p>
+                <h4 class="skills-tittle">Skillset:</h4>
+                <ul class="skills">
+                    <li class="skill">UX/UI design (Figma, Adobe XD,Sketch)</li>
+                    <li class="skill">Front-end frameworks (Bootstrap, Tailwind CSS)</li>
+                    <li class="skill">Usability testing and user research</li>
+                    <li class="skill">Prototyping and wireframing</li>
+                </ul>
+            </div>
+            <hr width="90%">
+            
+            <div id="instructor3" class="instructor">
+                <h3 class="name">Osama Youssif ElSayed</h3>
+                <img src="media/osama-youssif.png" alt="osama`s photo" width="300">
+                <p class="info">
+                    Osama Youssif ElSayed is a 
+                    <strong>cybersecurity expert and ethical hacker</strong> 
+                    with over <strong>12 years of experience</strong> in protecting
+                    organizations from cyber threats. He
+                    has worked as a <strong>security consultant</strong> 
+                    for major corporations, helping them
+                    secure their networks, websites, and
+                    databases from cyberattacks. Osama
+                    is also a dedicated instructor,
+                    teaching students how to
+                    <strong>  defend against hacking attempts</strong> 
+                    and build secure web applications
+                </p>
+                <h4 class="skills-tittle">Skillset:</h4>
+                <ul class="skills">
+                    <li class="skill">Web security & ethical hacking (OWASP, Penetration Testing)</li>
+                    <li class="skill">Network security & firewalls</li>
+                    <li class="skill">Secure coding (PHP, Python, JavaScript security best practices)</li>
+                    <li class="skill">Cyber threat analysis & incident response</li>
+                    <li class="skill">Ethical hacking tools (Metasploit, Wireshark, Kali Linux)</li>
+                </ul>
+            </div>
+            <hr noshade> <br>
+        </section>
+
+        <section id="schedule-table">
+            <h2>Schedule Table</h2>
+            <table border="1" width="90%" align="center">
+                <thead align="center">
+                    <tr>
+                        <th rowspan="2"> Time</th>
+                        <th colspan="2">Monday</th>
+                        <th colspan="2">Tuesday</th>
+                        <th colspan="2">Wednesday</th>
+                        <th colspan="2">Thursday</th>
+                        <th colspan="2">Friday</th>
+                    </tr>
+                    <tr>
+                        <td>Lecture</td>
+                        <td>Instructor</td>
+                        <td>Lecture</td>
+                        <td>Instructor</td>
+                        <td>Lecture</td>
+                        <td>Instructor</td>
+                        <td>Lecture</td>
+                        <td>Instructor</td>
+                        <td>Lecture</td>
+                        <td>Instructor</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>8:00AM-9:30AM</td>
+                        <td rowspan="2">HTML&CSS</td>
+                        <td rowspan="2">Noor Mohamed Ahmed</td>
+                        <td rowspan="2">JavaScript Basics</td>
+                        <td rowspan="2">Mohammed Ahmed Mohammed</td>
+                        <td rowspan="1">Cybersecurity Fundamentals</td>
+                        <td rowspan="1">Osama Youssif ElSayed</td>
+                        <td rowspan="2">UI/UX Design</td>
+                        <td rowspan="2">Noor Mohamed Ahmed</td>
+                        <td rowspan="2">Advanced Networking</td>
+                        <td rowspan="2">Osama Youssif ElSayed</td>
+                    </tr>
+                    <tr>
+                        <td>9:30AM-10:00AM</td>
+                        <td colspan="2">Lab Session</td>
+                    </tr>
+                    <tr>
+                        <td>10:0AM-11:30AM</td>
+                        <td rowspan="1">JavaScript DOM</td>
+                        <td rowspan="1">Mohammed Ahmed Mohammed</td>
+                        <td rowspan="1" colspan="2">Database Management</td>
+                        <td rowspan="2">AI & Machine Learning</td>
+                        <td rowspan="2">Guest Speaker</td>
+                        <td rowspan="1">Ethical Hacking</td>
+                        <td rowspan="1">Osama Youssif ElSayed</td>
+                        <td colspan="2" rowspan="2">Workshop: Web Security</td>
+                    </tr>
+                    <tr>
+                        <td>11:30AM-01:00PM</td>
+                        <td colspan="2">Project Work</td>
+                        <td colspan="2">Linux for Developers</td>
+                        <td colspan="2">Penetration Testing</td>
+                    </tr>
+                    <tr>
+                        <td>01:00PM-02:00PM</td>
+                        <th colspan="10">Lunch Break</th>
+                    </tr>
+                    <tr>
+                        <td>02:00PM-03:30PM</td>
+                        <td rowspan="1">Frontend Frameworks</td>
+                        <td rowspan="1">Noor Mohamed Ahmed</td>
+                        <td colspan="2">Networking Basics</td>
+                        <td rowspan="1">Data Structures</td>
+                        <td rowspan="1">Mohammed Ahmed Mohammed</td>
+                        <td rowspan="2">User Research</td>
+                        <td rowspan="2">Noor Mohamed Ahmed</td>
+                        <td rowspan="1">Cloud Security</td>
+                        <td rowspan="1">Osama Youssif ElSayed</td>
+                    </tr>
+                    <tr>
+                        <td>03:30PM-05:00PM</td>
+                        <td colspan="2">Final Project Discussion</td>
+                        <td colspan="2">Cyber Law & Ethics</td>
+                        <td colspan="2">AI Applications</td>
+                        <td colspan="2">Security Audits</td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr noshade> <br>
+        </section>
+
+        <section id="register">
+            <h2>Enroll Now</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Registration Form</legend>
+                    <div>
+                        <label for="full name">Full Name:</label><br>
+                        <input id="full name" type="text" name="full name" required>
+                    </div><br>
+                    
+                    <div>
+                        <label for="email">Email Address:</label><br>
+                        <input id="email" type="email" name="email" required>
+                    </div><br>
+                    
+                    <div>
+                        <label for="number">Phone Number:</label><br>
+                        <input id="number" type="tel" name="number" required>
+                    </div><br>
+                    
+                    <div>
+                        <label for="date">Date of Birth:</label><br>
+                        <input id="date" type="date" name="date">
+                    </div><br>
+
+                    <fieldset>
+                        <legend>Choose a Session</legend>
+                        <input id="beginner" type="radio" required name="session">
+                        <label for="beginner">Beginner</label><br>
+                        
+                        <input id="intermediate" type="radio" required name="session">
+                        <label for="intermediate">Intermediate</label><br>
+                        
+                        <input id="advanced" type="radio" required name="session">
+                        <label for="advanced">Advanced</label>
+                    </fieldset><br>
+                    
+                    <div>
+                        <label for="preferred-time">Preferred Time:</label>
+                        <select name="preferred-time" id="preferred-time" required>
+                            <option value="Morning">Morning</option>
+                            <option value="Afternoon">Afternoon</option>
+                            <option value="Evening">Evening</option>
+                        </select>
+                    </div><br>
+
+                    <fieldset>
+                    <legend>Additional Preferences</legend>
+                        <input type="checkbox" id="lunch" name="preferences" value="Lunch">
+                        <label for="lunch">Lunch</label><br>
+                        
+                        <input type="checkbox" id="tshirt" name="preferences" value="T-shirt">
+                        <label for="tshirt">T-shirt</label><br>
+                        
+                        <input type="checkbox" id="materials" name="preferences" value="Workshop Materials">
+                        <label for="materials">Workshop Materials</label>
+                    </fieldset><br><br>
+
+                    <div style="text-align: center;">
+                        <input type="submit" value="Submit" style="width: 120px; padding: 5px;">
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+        <br><br><br><hr noshade>
+
+        <footer align="center">
+            <h2 style="font-size: 50px; margin-bottom: 5px;">ZAKER</h2>
+            <p><small>&copy; 2026 Zaker. All rights reserved.</small></p>
+        </footer>
     </body>
 </html>
