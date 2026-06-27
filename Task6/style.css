@@ -88,6 +88,9 @@ main{
     text-decoration: none;
     color: rgba(0, 0, 255, 0.603);
 }
+.plan a:visited{
+    color: blue;
+}
 
 .payment{
     display: block;
