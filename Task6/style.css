@@ -128,3 +128,83 @@ footer{
     padding-bottom: 30px;
     font-size: 16px;
 }
+
+@media (max-width: 375px){
+    body{
+        width: auto;
+        height: auto;
+        min-height: 100vh;
+        background-image: url('images/pattern-background-mobile.svg');
+        background-size: 100% 194px;
+    }
+
+    main{
+        padding: 24px;
+        align-items: flex-start;
+    }
+
+    .card{
+        width: 100%;
+        max-width: 327px;
+        margin-top: 47px;
+        border-radius: 20px;
+    }
+
+    .background{
+        margin-bottom: 32px;
+    }
+
+    .info{
+        width: 81%;
+    }
+
+    .card .tittle{
+        font-size: 22px;
+        margin-bottom: 16px;
+    }
+
+    .card .hook{
+        font-size: 15px;
+        line-height: 1.68;
+    }
+
+    .card .plan{
+        width: 85%;
+        gap: 15px;
+        margin-top: 20px;
+        padding: 17px 16px;
+        border-radius: 11px;
+    }
+
+    .music{
+        width: 48px;
+        height: 48px;
+    }
+
+    .plan .plan-info{
+        margin-left: 0;
+        flex: 1;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .plan a{
+        font-size: 13px;
+    }
+
+    .payment{
+        width: 85%;
+        margin: 24px auto 24px;
+        padding: 15px 12px;
+        font-size: 15px;
+    }
+
+    .cancel{
+        margin-bottom: 32px;
+        font-size: 15px;
+    }
+
+    footer{
+        padding: 0 24px 24px;
+    }
+}
